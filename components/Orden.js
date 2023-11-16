@@ -5,7 +5,6 @@ import { formatearDinero } from '../helpers'
 import { toast } from 'react-toastify'
 import axios from 'axios'
 
-
 function Orden ({ orden }) {
   const { id, nombre, total, pedido } = orden
 

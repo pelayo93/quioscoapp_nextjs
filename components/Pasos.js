@@ -32,8 +32,8 @@ function Pasos () {
         ))}
       </div>
       <div className='bg-grey-100 mb-10'>
-        <div className='rounded-full bg-amber-500 text-xs leading-none h-2 text-center text-white' style={{width: `${calcularProgreso()}%`}}>
-
+        <div className='rounded-full bg-amber-500 text-xs leading-none h-2 text-center text-white' style={{ width: `${calcularProgreso()}%` }}>
+          {}
         </div>
       </div>
     </>
